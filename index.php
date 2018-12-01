@@ -29,7 +29,11 @@
    <body>
       <center>
       <div class="logo">Blaze's YouTube Video Downloader</div>
-      <br><br>
+	  <br>
+	  Share it with your friends on <b>Twitter!</b>
+	  <br>
+	  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      <br><br><br>
       <form method='GET'>
          <div class="help">
             <b>Copy this part of your YouTube link, then paste it in the box below!</b>
@@ -47,6 +51,5 @@
    </body>
    <div class="footer">
       <p>(c) 2018 iCrazyBlaze. This website is not affiliated with Google Inc.</p>
-      <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
    </div>
 </html>

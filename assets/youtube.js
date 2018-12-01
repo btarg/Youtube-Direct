@@ -78,7 +78,7 @@ $(document).ready(function ($) {
 
 		var get_video_id = $('.youtube_video_id').val();
 
-		var ajax_url = 'http://localhost/?id=' + get_video_id;
+		var ajax_url = window.location.href + '/?id=' + get_video_id;
 
 		$.get(ajax_url, function (d1) {
 
@@ -111,7 +111,7 @@ $(document).ready(function ($) {
 				'<br>' +
 				'<a class="btn_btn-primary" href="' + video_arr_final.video_url + '" download="youtube.mp4"><i class="fa fa-download"></i> Download as MP4</a>' +
 				'<div class="divider"/>' +
-				'<a class="btn_btn-primary" href="http://i.ytimg.com/vi/' + get_video_id + '/maxresdefault.jpg"><i class="fa fa-download"></i> Get Thumbnail</a>' +
+				'<a class="btn_btn-primary" href="http://i.ytimg.com/vi/' + get_video_id + '/hqdefault.jpg"><i class="fa fa-download"></i> Get Thumbnail</a>' +
 				'<br><br>' +
 				'In the video player, click the <b>options button</b> and select <b>Download.</b>' +
 				'<br><br>'

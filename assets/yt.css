@@ -70,10 +70,12 @@
 
 .footer {
 	position: fixed;
-	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: red;
+	background-color: red; /* For browsers that do not support gradients */
+	background-image: linear-gradient(red, #8C0000); /* Standard syntax (must be last) */
 	color: white;
 	text-align: center;
+
+	}
 }
